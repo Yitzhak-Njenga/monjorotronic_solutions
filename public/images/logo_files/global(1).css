@@ -1,0 +1,21 @@
+/* Copyright 1999-2020. Plesk International GmbH. All rights reserved. */
+
+.plesk-ext-notice {
+    margin: -20px -20px 20px;
+    padding: 10px;
+}
+.plesk-ext-notice__banner {
+    display: block;
+    width: 970px;
+    max-width: 100%;
+    margin: auto;
+}
+.plesk-ext-notice__banner-image {
+    max-width: 100%;
+}
+
+@media (max-width: 769px) {
+    .plesk-ext-notice {
+        display: none;
+    }
+}

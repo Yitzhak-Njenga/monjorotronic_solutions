@@ -1,0 +1,18 @@
+#digitalOceanHeader{
+    padding: 5px 5px 5px 0px;
+    font-size: 20px;
+    color: #2971c5;
+    display: inline-flex;
+   }
+#digitalOceanLogo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+#digitalOceanHeaderText{
+    padding-top: 13px;
+
+}
+#modules-digitaloceandns-form-settings .field-name { width: 0 !important;}
+#modules-digitaloceandns-form-settings .field-value { margin-left: 0 !important; }
+#modules-digitaloceandns-form-settings .hint { max-width: 100%; }
