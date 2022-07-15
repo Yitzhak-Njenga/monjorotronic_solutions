@@ -31,9 +31,9 @@
 <!--header-->
 <header class="main-header clearfix" role="header">
     <div class="logo">
-        <a href="#"><img width="200px" src="/images/logo.png"></a>
+        <a href="#"><img width="100px" src="/images/logo2.png"></a>
     </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <a href="#menu" class="menu-link"><i style="color: rgba(22,34,57,0.95);" class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
             <li><a href="#section1">Home</a></li>
@@ -41,7 +41,6 @@
                 <ul class="sub-menu">
                     <li><a href="#section2">Who we are?</a></li>
                     <li><a href="#section3">What we do?</a></li>
-                    <li><a href="#section3">How it works?</a></li>
                 </ul>
             </li>
             <li><a href="#section4">Services</a></li>
@@ -53,15 +52,116 @@
 </header>
 
 <!-- ***** Main Banner Area Start ***** -->
+
+
 <section class="section main-banner" id="top" data-section="section1">
     <video autoplay muted loop id="bg-video">
         <source src="/images/video.webm" type="video/mp4"/>
     </video>
 
+
     <div class="video-overlay header-text">
+
+
         <div class="caption">
 
-            <h2 style="text-transform: none"><em>Monjotronic </em> Solution</h2>
+            <div class="slider">
+                <!-- picture 01 -->
+                <div class="slide active-slide">
+                    <div class="container col-12">
+
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <div id="slider-captopn">
+                                        <h6 style="color: orange">Internet Installation</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <img class="img-fluid" style="width: 1200px; height:500px"  src="https://img.community.ui.com/56bf678d-da44-39c7-d43e-3c40d8ac9f51/stories/e9bca8e5-591c-42a3-a76c-a224daece062/f82f2bd5-d513-4879-93c4-367ca485fb92">
+
+                    </div>
+                </div>
+                <!-- picture 02 -->
+                <div class="slide">
+                    <div class="container col-12">
+
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <div id="slider-captopn">
+                                        <h6 style="color: orange">Access Control</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" style="width: 1200px; height:500px"  src="https://www.satfocussecurity.co.uk/wp-content/uploads/2019/12/access-control.jpg" width="800px" height="400px" >
+                    </div>
+                </div>
+                <!-- picture 03 -->
+                <div class="slide">
+                    <div class="container col-12">
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <div id="slider-captopn">
+                                        <h6 style="color: orange">Electronics Repair</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" style="width: 1200px; height:500px"  src="https://content.app-sources.com/s/18044360467586/uploads/Images/tv_bench-5566714.JPG" width="800px" height="400px" >
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="container col-12">
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <div id="slider-captopn">
+                                        <h6 style="color: orange">Solar Installation</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" style="width: 1200px; height:500px"  src="https://5.imimg.com/data5/SELLER/Default/2021/2/XV/CA/CY/30571959/solar-off-grid-rooftop-system-500x500.jpg" width="800px" height="400px" >
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="container col-12">
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <div id="slider-captopn">
+                                        <h6 style="color: orange">CCTV Installation</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" style="width: 1200px; height:500px"  src="https://5.imimg.com/data5/SELLER/Default/2021/2/XV/CA/CY/30571959/solar-off-grid-rooftop-system-500x500.jpg" width="800px" height="400px" >
+                    </div>
+                </div>
+            </div>
+            <!-- Slider nav -->
+            <div class="slider-nav">
+                <a href="" class="arrow-prev"><img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+                <ul class="slider-dots">
+                    <li class="dot active-dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                </ul>
+                <a href="" class="arrow-next"><img src="https://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+            </div>
+
+
+{{--            <h2 style="text-transform: none"><em>Monjotronic </em> Solution</h2>--}}
             <div class="main-button">
                 {{--                <div class="scroll-to-section"><a href="#section2">Discover more</a></div>--}}
             </div>
@@ -78,7 +178,7 @@
                 <div class="features-post">
                     <div class="features-content">
                         <div class="content-show">
-                            <h4 style="text-align: center"><i class="fa fa-pencil"></i><br>ELECTRONIC APPLIANCE
+                            <h4 style="text-align: center"><br>ELECTRONIC APPLIANCE
                                 HARDWARE & SOFTWARE REPAIR.</h4>
                         </div>
                         <div class="content-hide">
@@ -86,7 +186,7 @@
                                 Home Hi-Fi & Tv Screens.</p>
                             <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis
                                 eros a posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                            <div class="scroll-to-section"><a href="#section4">Read More....</a></div>
                         </div>
                     </div>
                 </div>
@@ -95,7 +195,7 @@
                 <div class="features-post second-features">
                     <div class="features-content">
                         <div class="content-show">
-                            <h4 style="text-align: center"><i class="fa fa-graduation-cap"></i><br>Internet Servcies
+                            <h4 style="text-align: center"> <br>Internet Servcies
                             </h4>
                         </div>
                         <div class="content-hide">
@@ -104,7 +204,7 @@
                                 Structured Cabling.</p>
                             <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis
                                 eros a posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section3">Details</a></div>
+                            <div class="scroll-to-section"><a href="#section4">Read More...</a></div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +213,7 @@
                 <div class="features-post third-features">
                     <div class="features-content">
                         <div class="content-show">
-                            <h4><i class="fa fa-book"></i>CCTV INSTALLATION</h4>
+                            <h4 style="text-align: center">CCTV INSTALLATION</h4>
                         </div>
                         <div class="content-hide">
                             <p>
@@ -122,7 +222,7 @@
                                 At Offices And Home.</p>
                             <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis
                                 eros a posuere imperdiet.</p>
-                            <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+                            <div class="scroll-to-section"><a href="#section4">Read More...</a></div>
                         </div>
                     </div>
                 </div>
@@ -130,6 +230,8 @@
         </div>
     </div>
 </section>
+
+
 
 <section class="section why-us" data-section="section2">
     <div class="container">
@@ -139,6 +241,12 @@
                     <h2>Why Choose Monjotronic Solutions?</h2>
                 </div>
             </div>
+
+            <ul>
+                <li style="color: white;text-align: center">Monjotronic solutions is an IT based company that was established back in the year 2016. It's purpose was to fill the gap of some of the IT needs amongst people. Our main goal is to have a great customer service whereby, if any of our clients is in need we deliver. We have partnered with a number of big,medium sized and small companies throughout Kenya whom we work with hand in hand to deliver a great customer experience through prompt, professional and high end service by our own abled skilled,team of experts.We believe that we have filled the unemployment gap by employing youths to work with and for our company.
+
+                    Our services are proactive so as to avoid bad customer experience,for a happy customer is a successful business.We look forward to dealing with new clients whom we believe will have the best services delivered to you by us. Contact us and get a quotation for any of our services,and we will be happy to get back to you as soon as possible.</li><br><br>
+            </ul>
             <div class="col-md-12">
                 <div id='tabs'>
                     <ul>
@@ -151,7 +259,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <img style="width: 400px" ; height="300px"
-                                         src="https://static.vecteezy.com/system/resources/thumbnails/005/638/559/small/isometric-illustration-concept-computer-data-delivery-of-goods-free-vector.jpg"
+                                         src="https://3.imimg.com/data3/MR/BG/MY-9752529/quality-services-250x250.jpg"
                                          alt="">
                                 </div>
                                 <div class="col-md-6">
@@ -211,71 +319,71 @@
                             <div class="row owl-carousel">
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/bikimlogo.png" width="400px" height="400px" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">BIKIM</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/gmp-services.jpg" width="400px" height="400px" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">GMP Services</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/revitalizelogo.jpeg" width="400px" height="400px" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">Revitalize Wellness Center</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/hoscon.jpeg" width="400px" height="400px" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">Hoscon Agency Limited</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/medipoint.jpeg" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">Medipoint</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/proteclogo.jpg" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">Protec</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
 
                                 <div class="card">
                                     <div class="card-img-top text-center px-5 mt-3">
-                                        <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
+                                        <img src="/images/vaal-logo.png" class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title text-center">CWCCI</h5>
-                                        <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
+                                        <h5 class="card-title text-center">Vaal Real Estate</h5>
+                                        <p class="card-text text-center"></p>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +470,7 @@
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img
-                        src="https://images.unsplash.com/photo-1589935447067-5531094415d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2N0dnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        src="https://media.istockphoto.com/photos/security-cctv-camera-in-the-office-building-picture-id1133894680?k=20&m=1133894680&s=612x612&w=0&h=XycwIue9byHUfjP7bWs6kUIfImL2gRIzL-Pw3PKbQNA="
                         alt="Course #1">
                     <div class="down-content">
                         <h4>CCTV Installation</h4>
@@ -375,8 +483,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img
-                        src="https://images.unsplash.com/photo-1585079374502-415f8516dcc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    <img height="260px"
+                        src="https://www.satfocussecurity.co.uk/wp-content/uploads/2019/12/access-control.jpg"
                         alt="Course #2">
 
                     <div class="down-content">
@@ -392,66 +500,64 @@
                             CCTV SURVEILLANCE
                             -IP CCTV
                             -HD CCTV</p>
-
                     </div>
                 </div>
                 <div class="item">
                     <img
-                        src="https://images.unsplash.com/photo-1549109926-9620d1b9bfa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        src="https://www.eurekaafricablog.com/wp-content/uploads/2019/03/Electrical-fences-in-Kenya.jpg"
                         alt="Course #3">
                     <div class="down-content">
                         <h4>Electric Fence</h4>
                         <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus
                             lobortis enim.</p>
                         <div class="author-image">
-                            <img src="/images/author-03.png" alt="Author 3">
+{{--                            <img src="/images/author-03.png" alt="Author 3">--}}
                         </div>
                         <div class="text-button-pay">
-                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+{{--                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>--}}
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <img
-                        src="data:image/jpeg;base64,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">
+                        src="https://img.community.ui.com/56bf678d-da44-39c7-d43e-3c40d8ac9f51/stories/e9bca8e5-591c-42a3-a76c-a224daece062/f82f2bd5-d513-4879-93c4-367ca485fb92" height="260px">
                     <div class="down-content">
                         <h4>Internet Installation</h4>
                         <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and
                             Pexels.</p>
                         <div class="author-image">
-                            <img src="/images/author-04.png" alt="Author 4">
+{{--                            <img src="/images/author-04.png" alt="Author 4">--}}
                         </div>
                         <div class="text-button-free">
-                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/images/courses-05.jpg" alt="">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/2/XV/CA/CY/30571959/solar-off-grid-rooftop-system-500x500.jpg" alt="">
                     <div class="down-content">
                         <h4>Solor Power Intsallation</h4>
                         <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus
                             lobortis enim.</p>
                         <div class="author-image">
-                            <img src="/images/author-05.png" alt="">
+{{--                            <img src="/images/author-05.png" alt="">--}}
                         </div>
                         <div class="text-button-pay">
-                            <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/images/courses-01.jpg" alt="">
+                    <img src="https://content.app-sources.com/s/18044360467586/uploads/Images/tv_bench-5566714.JPG" alt="">
                     <div class="down-content">
                         <h4>Electronic Appliance
                             Hardware & Software Repair.</h4>
                         <p>Quisque cursus augue ut velit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum
                             porta.</p>
                         <div class="author-image">
-                            <img src="/images/author-01.png" alt="">
+{{--                            <img src="/images/author-01.png" alt="">--}}
                         </div>
                         <div class="text-button-free">
-                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+{{--                            <a href="#">Free <i class="fa fa-angle-double-right"></i></a>--}}
                         </div>
                     </div>
                 </div>
@@ -570,15 +676,39 @@
 
 
                 <form style="color: white" id="contact" action="/contact" method="post">
-                    <h4>Phone:</h4>
+                    <h4 style="color: orange"> <i class="fa-solid fa-phone"> </i> Phone:</h4>
                     <br>
-                    <h6><a href="tel:+254702452556"></a>0702452556</h6>
-                    <h6><a href="tel:+254734139465"></a>0734139465 </h6>
+                    <ul>
+                        <li><h6><a href="tel:+254702452556"></a>0702452556</h6></li>
+                        <li><h6><a href="tel:+254734139465"></a>0734139465 </h6></li>
+                    </ul>
+
+
                     <br>
                     <br>
-                    <h4>Email:</h4>
-                    <h5><a class="text-white" href="mailto:monjotronic@outlook.com">monjotronic@outlook.com</a> </h5>
-                    <h5><a class="text-white" href="info@monjotronicsolution.co.ke">info@monjotronicsolution.co.ke</a> </h5>
+                    <h4 style="color: orange"> <i class="fa-solid fa-envelope"></i> Email:</h4>
+
+                    <ul>
+                        <li> <h6><a class="text-white" href="mailto:monjotronic@outlook.com">monjotronic@outlook.com</a> </h6></li>
+                        <li><h6><a class="text-white" href="info@monjotronicsolution.co.ke">info@monjotronicsolution.co.ke</a> </h6></li>
+                    </ul>
+
+                        <br>
+                        <br>
+                    <div class="container">
+                        <div class="row">
+                            <ul style="display: flex; color: white">
+                                <li class="col-8"> <a class="text-white" style="font-size: 30px;" href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+                                <li class="col-8"><a  class="text-white" style="font-size: 30px;" href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+                                <li class="col-8"><a class="text-white" style="font-size: 30px;" href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+
+
 
 
 
@@ -641,6 +771,33 @@
     </div>
 </section>
 
+
+<section class="section contact" data-section="section6">
+    <div class="container col-12">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2>Our Partners</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="background-color: white">
+            <div class="row row-cols-auto d-flex">
+                <div style="padding: 20px" class="col-sm"><img width="200px" height="100px" src="data:image/png;base64,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"> </div>
+                <div  style="padding: 20px" class="col-sm"><img  width="200px" height="100px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACoCAMAAACCN0gDAAAAgVBMVEX///8AAAD39/eXl5f8/Py0tLStra36+vrl5eWcnJzx8fHq6uojIyN4eHg6OjpQUFDb29tmZmaRkZHV1dUoKCjDw8ODg4PNzc1eXl6ioqJERES6urpnZ2fGxsYsLCwaGhpHR0c9PT18fHwWFhZvb29YWFiJiYkNDQ2np6czMzNNTU2lW2r8AAAEq0lEQVR4nO2d6W4iMRCEOYabJIQACZBwJhx5/wdcRVpNlbS9ayxW05anvp8tK+q0XO522x4aDSGEEEIIIYQQQgghhBBCCCH+C0WvNRz1+5OhtyPp02mWTLx9SZ/nMliP3q6kzxBTa+rtS/qsEa0Xb1/SB0KcebuSPgWm1snbl/QhISojBnkvg7X1diV9hmdlxNuZKyNGACFeC29fkocy4sLbl/ShjPjq7Uv6fJbBOnq7kj4tCTECZcQYIMSxMmKI1lFCvB0SojJikAcJMQJMrYO3K+nzISFGACE2vV1Jn9ZWGfF2XiXECCDEWcvbl/RB1/TB25X0ISF+ePuSPgdlxAgkxAgkxBioNNUeMURvIyHejoQYw6IM1lalaRBMrU9vV9LnRUKMAEJUaRpmpox4OyTEubcv6XMqg3VURgxRQIjKiEEkxBggxKaEGAQH+u8wFofPh8NicZq2B10aO78sB+329HRa0AXx/uH0M+7S7ayzvwhNQlzDOrHLe9PahrVTmdtOkBB7sE7NxYxOaKnoX9VIyo+WEBtXVBX0TNE8oe3D+FyZ107YQrQjUOCElor+gfkX8gSSO9MksiNgCxGTs5n9a1lMlzey7hEB6jxj933GAjXC0K/q3PaBcp8tRIphzxTiBWOzz4iU+ygjLs0I2G2wJ1izz4jIfSxEigAtRTihJSHSNKyTEGkS0VLEMYSVStMurFz0ZwmV4TSJ7AjQwRAVrG+w9qvz2wdkf55EO0RgBKvZj6b3G0+Vee0ELTokRPrKwQ7WAie0JET62MayKq+9ICHSJKIIXGC122B1EiK6ppzPKAKmEGnnSNPwWp3bPpAQaTW3hdgYl1bafdP7jUFFTrtBQqTCkt500lJkCxEf28hfiGhMsRDfzQhQGww7xxYuya2qc9sHKk1JiPS4ek+DIURq4ZAQs/8iArVlaDUnIdJSZAsRLxrz/zQJSlMuLO0I2AdDMG4q89oJOyNScT6GtcDum0pT6g7WSYi0R7QjYLfBqE2f/UPsffmv7shKESAhmv3oHorbc1VOe2FnxB5yH3+cBSe0tPumpkT2H+ui/ihlRDsCthBp5c/+2RnaMlyaLswIUD+aJhza9BvqUmcJ9Uep0UA1AWVE6kdTaUolWPZXCkmItL+hCNBTdLsfXSch7st/dUfWoBCp1kA+yP5uLwmRGg3UH+UImP3oOgmxM74+7ler3ffTjqbLZHO9bjaz8XjLT9FtIS63P+OOP12Iul8p7LUo99kHQ7/HDYej7DtbUUCe2R/r3I8tRGHzDyGKP0A/Ovurf/djt8GEjd2PFjbKiBFIiDHQ7lsZMcheQrwdEuIlPLru2HeWhM23hHg7f+lHCxP7YEjYoGu6Dw+uO8qIMUiIMeAFizJiEBJi9pfh74ce0+mkIgi6ptnfwb2foYQYQVdCjAB7RP1gbhDaI2b/KuV+JMQYvspg7bxdSZ+hhBiBhBgDMmL27zTvR0KMQUKMAY+rVZoGodK07e1L+tBXDrJ/p3k/EmIELQkxAgkxBuwRx+HBdYdK0+wfTN/PWkKMAELc6MeQQhTdS7fbWa/X87mmlhBCCCGEEEIIIYQQQgghhBCJ8AtZ8DCWs2qYMQAAAABJRU5ErkJggg=="></div>
+                <div style="padding: 20px;" class="col-sm"><img  width="200px" height="100px" src="https://c4.wallpaperflare.com/wallpaper/410/664/905/dell-wallpaper-preview.jpg"></div>
+                <div style="padding: 20px" class="col-sm"><img  width="200px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9zOowxKnSGSzm7VSdFdyAr01Cn439vXyv1Wbdu6ywsEJuWavosPl8FPBBU1d4VctLbY&usqp=CAU"></div>
+                <div style="padding: 20px" class="col-sm"><img  width="200px"  height="100px" src="https://www.manua.ls/thumbs/brands/l/2410-netis_logo.jpg"></div>
+                <div style="padding: 20px" class="col-sm"><img  width="200px" height="100px" src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4OAgf?ver=6a31"></div>
+                <div style="padding: 20px" class="col-sm"><img  width="200px"  height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMvPLSwkqzyMvZ-Y6okF5AlSmAHmC9pyjN2DQ3uGqFKTG39z92WKz2q0eGHp0I4Zrs4I&usqp=CAU"></div>
+                <div style="padding: 20px" class="col-sm"><img  width="200px" height="100px" src="data:image/png;base64,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"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <footer>
     <div class="container">
         <div class="row">
@@ -665,9 +822,11 @@
         window.location.href="contact";
     });
 </script>
+<script src="//code.tidio.co/ljiolbm50jzhsh0wna9xclrjcprp6iz5.js" async></script>
 <script src="js/jquery.min.js"></script>
-{{--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>--}}
-
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+{{--<script src="https://kit.fontawesome.com/01ffbd653d.js" crossorigin="anonymous"></script>--}}
+<script src="https://kit.fontawesome.com/5e880cd5fd.js" crossorigin="anonymous"></script>
 <script src="/js/isotope.min.js"></script>
 <script src="/js/owl-carousel.js"></script>
 <script src="/js/lightbox.js"></script>
